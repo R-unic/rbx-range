@@ -1,7 +1,6 @@
 import { Assert, Fact, InlineData, Theory } from "@rbxts/runit";
 import { Range } from "../../src";
 
-
 class RangeTest {
   @Fact
   public clamp(): void {
